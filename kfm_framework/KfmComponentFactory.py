@@ -1,3 +1,6 @@
+from kfm_framework.imp.kfm_chain import Chain4
+from kfm_framework.imp.kfm_chain.Chain4 import Chain8
+from kfm_framework.imp.kfm_chain.China3 import Chain3
 from kfm_framework.interface.kfm_model.KfmModel import KfmModel
 from kfm_framework.imp.kfm_model.KfmModel1 import KfmModel1
 from kfm_framework.imp.kfm_model.KfmModel2 import KfmModel2
@@ -14,6 +17,7 @@ from kfm_framework.imp.kfm_vector.Vector1 import Vector1
 from kfm_framework.interface.kfm_chain.KfmChain import KfmChain
 from kfm_framework.imp.kfm_chain.Chain2 import Chain2
 from kfm_framework.imp.kfm_chain.Chain1 import Chain1
+from kfm_framework.imp.kfm_chain.China_Agent1 import China_Agent1
 
 from kfm_framework.interface.kfm_embed.KfmEmbedding import KfmEmbedding
 from kfm_framework.imp.kfm_embed.Embedding2 import Embedding2
@@ -23,7 +27,7 @@ from kfm_framework.imp.kfm_embed.Embedding1 import Embedding1
 
 
 
-from kfm_framework.public  import *
+from kfm_framework.public import Dict,Any
 
 # 接口定义
 
@@ -66,5 +70,8 @@ class KfmComponentFactory:
         chains = {
             "chain1": Chain1,
             "chain2": Chain2,
+            "chain3": Chain3,
+            "China_Agent1": China_Agent1,
+            "chain4": Chain8
         }
         return chains[chain_name]()
