@@ -1,0 +1,538 @@
+2024-09-29 00:00:15 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:00:15 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:00:15 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:00:15 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:00:15 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:00:15 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:00:16 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:00:16 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:00:16 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:00:16 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:00:16 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:00:16 - kfm_framework.imp.kfm_chain.Chain3 - DEBUG - Chain3 is initialization
+2024-09-29 00:00:16 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: hi', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: hi', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': 'hi', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:00:16 - kfm_framework.imp.kfm_chain.Chain3 - DEBUG - get_session_history db_path : sqlite:////Users/linrui/PycharmProjects/everyone_llm_framework/chain_memory_data/chain3_memory.db
+2024-09-29 00:00:33 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:00:33 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:00:33 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:00:33 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:00:33 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:00:33 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:00:33 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:00:33 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:00:33 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:00:33 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:00:33 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:00:33 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:00:33 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: hi', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: hi', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': 'hi', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:00:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:00:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:00:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:00:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:00:51 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:00:51 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:00:51 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:00:51 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:00:51 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:00:51 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:00:51 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:00:51 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:00:51 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:00:58 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:00:58 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:00:58 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:00:58 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:00:58 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:00:58 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:00:58 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:00:58 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:00:58 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:00:58 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:00:58 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:00:58 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:00:58 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:01:12 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:01:12 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:01:12 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:01:12 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:01:12 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:01:12 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:01:12 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:01:12 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:01:12 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:01:12 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:01:12 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:01:12 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:01:12 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:01:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:01:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:01:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:01:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:01:17 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:01:17 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:01:17 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:01:17 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:01:17 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:01:17 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:01:17 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:01:17 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:01:17 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:01:53 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:01:53 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:01:53 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:01:53 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:01:53 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:01:53 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:01:53 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:01:53 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:01:53 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:01:53 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:01:53 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:01:53 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:01:53 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:02:07 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:02:07 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:02:07 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:02:07 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:02:07 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:02:07 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:02:07 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:02:07 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:02:07 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:02:07 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:02:07 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:02:07 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:02:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:02:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:02:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:02:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:02:17 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:02:17 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:02:17 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:02:17 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:02:17 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:02:17 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:02:17 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:02:17 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:02:17 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:02:37 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:02:37 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:02:37 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:02:37 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:02:37 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:02:37 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:02:37 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:02:37 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:02:37 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:02:37 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:02:37 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:02:37 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:02:37 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:02:57 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:02:57 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:02:57 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:02:57 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:02:57 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:02:58 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:02:58 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:02:58 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:02:58 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:02:58 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:02:58 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:02:58 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:02:58 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='llama3.1:8b', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='llama3.1:8b' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:03:11 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:03:11 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:03:11 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:03:11 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:03:11 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:03:11 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:03:12 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:03:12 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:03:12 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:03:12 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:03:12 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:03:41 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:03:41 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:03:41 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:03:41 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:03:41 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:03:41 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:03:41 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:03:41 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:03:41 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:03:41 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:03:41 - kfm_framework.imp.kfm_model.KfmModel2 - INFO - KfmModel2 B init llm : model='llama3.1:8b' temperature=0.0 top_p=0.9
+2024-09-29 00:03:52 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:03:52 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:03:52 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:03:52 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:03:52 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:03:52 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:03:52 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:03:52 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:03:52 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:03:52 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:04:10 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:04:10 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:04:10 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:04:10 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:04:10 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:04:10 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:04:10 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:04:10 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:04:10 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:04:10 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:05:41 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:05:41 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:05:41 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:05:41 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:05:41 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:05:41 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:05:41 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:05:41 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:05:41 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:05:41 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:06:21 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:06:21 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:06:21 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:06:21 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:06:21 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:06:21 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:06:21 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:06:21 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:06:21 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:06:21 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:06:21 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:06:21 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:06:59 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:06:59 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:06:59 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:06:59 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:06:59 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:06:59 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:06:59 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:06:59 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:06:59 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:06:59 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:06:59 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:06:59 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:08:32 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:08:32 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:08:32 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:08:32 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:08:32 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:08:32 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:08:32 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:08:32 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:08:32 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:08:32 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:08:32 - kfm_framework.imp.kfm_chain.Chain5 - DEBUG - Chain3 is initialization
+2024-09-29 00:08:32 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:09:12 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:09:12 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:09:12 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:09:12 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:09:12 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:09:12 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:09:12 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:09:12 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:09:12 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:09:12 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:09:12 - kfm_framework.imp.kfm_chain.Chain5 - DEBUG - Chain3 is initialization
+2024-09-29 00:09:12 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:09:18 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:09:18 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:09:18 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:09:18 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:09:18 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:09:18 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:09:18 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:09:18 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:09:18 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:09:18 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:09:18 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:09:18 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:09:35 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:09:35 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:09:35 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:09:35 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:09:35 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:09:35 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:09:35 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:09:35 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:09:35 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:09:35 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:09:35 - kfm_framework.imp.kfm_chain.Chain5 - DEBUG - Chain3 is initialization
+2024-09-29 00:09:35 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:09:44 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:09:44 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:09:44 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:09:44 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:09:44 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:09:44 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:09:44 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:09:44 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:09:44 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:09:44 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:09:44 - kfm_framework.imp.kfm_chain.Chain5 - DEBUG - Chain3 is initialization
+2024-09-29 00:09:44 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:10:06 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:10:06 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:10:06 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:10:06 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:10:06 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:10:06 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:10:06 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:10:06 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:10:06 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:10:06 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:10:06 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:10:06 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:10:36 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:10:36 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:10:36 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:10:36 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:10:36 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:10:36 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:10:36 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:10:36 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:10:36 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:10:36 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:10:36 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:10:36 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:10:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:10:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:10:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:10:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:10:51 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:10:51 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:10:51 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:10:51 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:10:51 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:10:51 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:10:51 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:10:51 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:10:56 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:10:56 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:10:56 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:10:56 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:10:56 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:10:57 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:10:57 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:10:57 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:10:57 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:10:57 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:10:57 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:10:57 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:11:27 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:11:27 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:11:27 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:11:27 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:11:27 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:11:27 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:11:27 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:11:27 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:11:27 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:11:27 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:11:27 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:11:27 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:11:34 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:11:34 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:11:34 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:11:34 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:11:34 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:11:34 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:11:34 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:11:34 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:11:34 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:11:34 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:11:34 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:11:34 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:13:18 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:13:18 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:13:18 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:13:18 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:13:18 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:13:18 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:13:18 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:13:18 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:13:18 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:13:18 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:13:18 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:13:33 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:13:33 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:13:33 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:13:33 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:13:33 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:13:33 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:13:33 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:13:33 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:13:33 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:13:33 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:13:33 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:14:32 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:14:32 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:14:32 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:14:32 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:14:32 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:14:32 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:14:32 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:14:32 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:14:32 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:14:32 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:14:32 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:16:28 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:16:28 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:16:28 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:16:28 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:16:28 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:16:28 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:16:28 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:16:28 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:16:28 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:16:28 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:16:28 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:16:28 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:17:20 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:17:20 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:17:20 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:17:20 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:17:20 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:17:21 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:17:21 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:17:21 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:17:21 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:17:21 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:17:21 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:17:21 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:17:28 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:17:28 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:17:28 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:17:28 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:17:28 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:17:28 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:17:28 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:17:28 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:17:28 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:17:28 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:17:28 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:17:28 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:17:34 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:17:34 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:17:34 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:17:34 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:17:34 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:17:35 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:17:35 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:17:35 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:17:35 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:17:35 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:17:35 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:17:39 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:17:39 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:17:39 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:17:39 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:17:39 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:17:39 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:17:39 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:17:39 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:17:39 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:17:39 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:17:39 - kfm_framework.imp.kfm_chain.Chain3 - DEBUG - Chain3 is initialization
+2024-09-29 00:17:39 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:17:39 - kfm_framework.imp.kfm_chain.Chain3 - DEBUG - get_session_history db_path : sqlite:////Users/linrui/PycharmProjects/everyone_llm_framework/chain_memory_data/chain3_memory.db
+2024-09-29 00:17:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:17:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:17:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:17:51 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:17:51 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:17:51 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:17:51 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:17:51 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:17:51 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:17:51 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:17:51 - kfm_framework.imp.kfm_chain.Chain3 - DEBUG - Chain3 is initialization
+2024-09-29 00:17:51 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:17:51 - kfm_framework.imp.kfm_chain.Chain3 - DEBUG - get_session_history db_path : sqlite:////Users/linrui/PycharmProjects/everyone_llm_framework/chain_memory_data/chain3_memory.db
+2024-09-29 00:18:03 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:18:03 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:18:03 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:18:03 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:18:03 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:18:03 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:18:03 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:18:03 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:18:03 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:18:03 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:18:03 - kfm_framework.imp.kfm_chain.Chain1 - DEBUG - Chain1 is initialization
+2024-09-29 00:18:03 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:18:10 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:18:10 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:18:10 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:18:10 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:18:10 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:18:10 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:18:10 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:18:10 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:18:10 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:18:10 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:18:10 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:18:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:18:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:18:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:18:17 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:18:17 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:18:17 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:18:17 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:18:17 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:18:17 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:18:17 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:18:17 - kfm_framework.imp.kfm_chain.Chain4 - DEBUG - Chain3 is initialization
+2024-09-29 00:18:17 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
+2024-09-29 00:18:23 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+2024-09-29 00:18:23 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - LangChain version: 0.2.14,langchain_core version:0.2.33 Chromadb version: 0.5.5
+2024-09-29 00:18:23 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - langchain_community version: 0.2.12,	 Chromadb version: 0.5.5
+2024-09-29 00:18:23 - kfm_core.kfm_chatllama.KfmChatLlama - INFO - llm is model='qwen2.5:latest' temperature=0.0 top_p=0.9 ,kfm_stream_llm is model='qwen2' temperature=0.1 top_p=0.9  embedding :base_url='http://localhost:11434' model='nomic-embed-text:latest' embed_instruction='passage: ' query_instruction='query: ' mirostat=None mirostat_eta=None mirostat_tau=None num_ctx=None num_gpu=None num_thread=None repeat_last_n=None repeat_penalty=None temperature=None stop=None tfs_z=None top_k=None top_p=None show_progress=False headers=None model_kwargs=None
+2024-09-29 00:18:23 - kfm_core.kfm_chatllama.KfmChatLlama - DEBUG - KfmChatLlama LLM is  initialization completed ✅  
+2024-09-29 00:18:23 - kfm_framework.imp.kfm_model.KfmModel2 - DEBUG - KfmModel2 initialization
+2024-09-29 00:18:23 - kfm_framework.Kfm_Chatbot - DEBUG - kfm_chatbot initialization
+2024-09-29 00:18:23 - kfm_framework.Kfm_Chatbot - DEBUG - Kfm_Chatbot LLM is initialization
+2024-09-29 00:18:23 - kfm_framework.Kfm_Chatbot - DEBUG - ====================== LLM is initialization ======================
+2024-09-29 00:18:23 - kfm_framework.imp.kfm_model.KfmModel1 - INFO - KfmModel1 init params : [{'p1': 0, 'p2': 0, 'p3': 0}, {'top': 1, 'max_token': 9000}]
+2024-09-29 00:18:23 - kfm_framework.imp.kfm_chain.Chain5 - DEBUG - Chain3 is initialization
+2024-09-29 00:18:23 - kfm_framework.Kfm_Chatbot - DEBUG - self.chain_dict:
+ {'vector': 'Vectorized by Vector2: 给我一首杜甫的诗', 'kfm_embedding': 'Embedded by Embedding2: Vectorized by Vector2: 给我一首杜甫的诗', 'model': ChatOllama(model='qwen2.5:latest', temperature=0.0, top_p=0.9), 'template': "Template2 applied: model='qwen2.5:latest' temperature=0.0 top_p=0.9", 'input': '给我一首杜甫的诗', 'user_id': 'linrui', 'session_id': '123'}
